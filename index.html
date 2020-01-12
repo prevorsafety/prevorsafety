@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="lv">
-
 <head>
-    <meta name="google-site-verification" content="4w4Z3_3_M8knk9SIZRPCUvNSJrJLDQy5qVxdVBxOn2E" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="SIA PREVOR piedāvā Jums konsultāciju dūmu detektoru jautājumos, kā arī to kvalitatīvu un pareizu uzstādīšanu Jūsu mājoklī. Mūsu piedāvātie dūmu detektori atbilst visām Eiropas Savienībā noteiktajām prasībām un to lietošanas instrukcijas teksts ir valsts valodā.">
+    <meta name="description" content="SIA PREVOR piedāvā Jums konsultāciju dūmu detektoru jautājumos, kā arī to kvalitatīvu un pareizu uzstādīšanu Jūsu mājoklī. Mūsu piedāvātie dūmu detektori atbilst visām Eiropas Savienībā noteiktajām prasībām un to lietošanas instrukcijas teksts ir valsts valodā.">
     <meta name="author" content="nedūmo.lv | Prevorsafety">
     <meta name="keywords" content="Prevorsafety, Nedūmo, Dūmu detektori, Ugunsdrošība">
     <link rel="shortcut icon" href="favicon.ico"/>
@@ -23,7 +21,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/styles.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
     <!--- Script for animations --->
     <script>
@@ -33,38 +31,62 @@
             document.body.classList.remove('js-loading');
         }
     </script>
-
 </head>
-
 <body id="page-top" class="nedumo-page js-loading">
-
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-        <a class="mi-home visible-on-small js-scroll-trigger" href="#home"></a>
+        <!-- <a class="mi-home visible-on-small js-scroll-trigger" href="#home"></a> -->
         <button class="navbar-toggler menu-btn" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto text-center">
+                
                 <li class="nav-item text-center">
-                    <a class="mi-home nav-link js-scroll-trigger" href="#home">Galvenā</a>
+                    <a class="mi-contacts nav-link js-scroll-trigger" href="#fireInstructions">Ugunsdrošības instrukcija</a>
                 </li>
                 <li class="nav-item text-center">
-                    <a class="mi-about nav-link js-scroll-trigger" href="#about">Par mums</a>
+                    <a class="mi-contacts nav-link js-scroll-trigger" href="#fireInstructionsTraining">Ugunsdrošības instruktāža</a>
                 </li>
+                <li class="nav-item text-center">
+                    <a class="mi-contacts nav-link js-scroll-trigger" href="#evacPlan">Evakuāciju plānu izstrāde</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="mi-contacts nav-link js-scroll-trigger" href="#waterPlan">Ugunsdzēsības ūdensņemšanas vietu izvietojuma shēmu izstrāde</a>
+                </li>
+                <div class="dropdown-divider"></div>
+                <li class="nav-item text-center">
+                    <a class="mi-contacts nav-link js-scroll-trigger" href="#smokeDetectors">Dūmu detektori</a>
+                </li>
+                <div class="dropdown-divider"></div>
                 <li class="nav-item text-center">
                     <a class="mi-contacts nav-link js-scroll-trigger" href="#contact">Sazināties</a>
                 </li>
+                <li class="nav-item text-center">
+                    <a class="mi-contacts nav-link js-scroll-trigger" href="#about">Par mums</a>
+                </li>
             </ul>
         </div>
+
         <div class="large-navbar row">
             <div class="col-sm">
-                <a class="mi-about nav-link js-scroll-trigger" href="#about">Par mums</a>
+                <a class="mi-home nav-link js-scroll-trigger" href="#home"></a>
+            </div>
+           
+            <div class="col-sm">
+                <a class="nav-link dropdown-toggle btn btn-dark" href="#" id="ddFS" data-toggle="dropdown" 
+                    aria-haspopup="true" aria-expanded="false">Ugunsdrošība</a>
+                <div class="dropdown-menu" aria-labelledby="ddFS">
+                  <a class="dropdown-item js-scroll-trigger" href="#fireInstructions">Ugunsdrošības instrukcija</a>
+                  <a class="dropdown-item js-scroll-trigger" href="#fireInstructionsTraining">Ugunsdrošības instruktāža</a>
+                  <a class="dropdown-item js-scroll-trigger" href="#evacPlan">Evakuāciju plānu izstrāde</a>
+                  <a class="dropdown-item js-scroll-trigger" href="#waterPlan">Ugunsdzēsības ūdensņemšanas vietu izvietojuma shēmu izstrāde</a>
+                </div>
             </div>
             <div class="col-sm">
-                <a class="mi-home nav-link js-scroll-trigger" href="#home"></a>
+                <a class="mi-contacts nav-link js-scroll-trigger btn btn-dark btn-sm" href="#smokeDetectors">Dūmu detektori</a>
             </div>
             <div class="col-sm">
                 <a class="mi-contacts nav-link js-scroll-trigger btn btn-dark btn-sm" href="#contact">Sazināties</a>
@@ -77,8 +99,64 @@
 <section id="home" class="home-section text-center">
     <div class="container">
         <div class="row">
-            <h1 class="home-section-heading animation-fadeInUp">Vēlies pasargāt savu mājokli no ugunsbriesmām?</h1>
-            <p class="home-section-text animation-fadeInUp">Parūpējies par sevi un tuviniekiem,<br>piesakies konsultācijai un dūmu detektoru uzstādīšanai</p>
+            <h1 class="home-section-heading animation-fadeInUp">NO 2020. GADA 1. JANVĀRA KATRĀ DZĪVOKLĪ JĀBŪT DŪMU DETEKTORAM,
+                KO PAREDZ MK NOTEIKUMI <a href="https://likumi.lv/ta/id/281646#p119" title="MK noteikumi">NR.238 "UGUNSDROŠĪBAS NOTEIKUMI"</a></h1>
+            <p class="home-section-text animation-fadeInUp">Mēs nogādāsim un uzstādīsim Jūsu mājoklī Jums piemērotu dūmu detektoru – kvalitatīvi un lēti ņemot vērā visas prasības.
+                <br/>Cena sākot no 10 €</p>
+        </div>
+    </div>
+</section>
+
+<!-- Detectors -->
+<section class="page-section" id="smokeDetectors">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/sd1.jpg" alt="Dūmu detektors">
+                    <div class="card-body">
+                      <p class="card-text">Standarta veida un izmēra autonomie dūmu detektori ar īpašu testēšanas pogu, kuru piespiežot, var pārliecināties par to, ka dūmu detektors ir lietošanas kārtība.
+                        Barošana- 9V baterija (komplektā)
+                        Darba temperatūra, ° C: -10 - +50
+                        Trokšņa līmenis: 85 dB / 3m
+                        Izmēri: 102mm (dia.) X 35mm (H) ar bāzi
+                        Svars: 130g ar bateriju.
+                        <b>Sertifikāti CE; EN-14604</b></p>
+                        <h5 class="card-title">Cena kopā ar uzstādīšanu sākot no 10€</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/sd2.jpg" alt="Dūmu detektors">
+                    <div class="card-body">
+                        <p class="card-text">Mazākais autonomais dūmu detektors pasaulē, praktiski neredzams. 
+                            Tikai 45 grami un 4 cm diametrs – golfa bumbiņas izmērs.
+                            Sensora tips: fotoelektriskais dūmu detektors
+                            Citas funkcijas: testēšana / izslēgšana
+                            Akumulators: 3V Litija, 10 gadi kalpošanas laiks
+                            Trokšņa līmenis: 85dB @3m
+                            Darba temperatūra, °C: 0°C – 45°C
+                            Svars: 54 g.
+                            Krāsa: pieejamas vairākas krāsas
+                            <b>Sertifikāti CE; EN-14604</b></p>
+                        <h5 class="card-title">Cena kopā ar uzstādīšanu sākot no 20€</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/sd3.jpg" alt="Dūmu detektors">
+                    <div class="card-body">
+                      <p class="card-text">Autonomais dūmu detektors ar iebūvētu 2G vai 3G SIM karti.
+                        Pašlaik pie mums ir pieejami dūmu detektori, kas ziņo par notiekošo mājās, izmantojot telefonu.
+                        Detektors darbojas ar bateriju, bet tajā ievietojamā telefona SIM karte, kura signalizē saimniekam, par dūmu detektora trauksmi atsūtot īpašniekam izziņu. 
+                        Tāds detektors noderēs viensētām vai saimnieku ilgstošas prombūtnes laikā.
+                        <b>Sertifikāti CE</b></p>
+                        <h5 class="card-title">Cena kopā ar uzstādīšanu sākot no 30€</h5>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -91,16 +169,9 @@
             <div class="col-sm-12 col-md-8">
                 <h1 class="about-section-heading">Kāpēc Jums ir jāuzstāda dūmu detektors Jūsu mājoklī?</h1>
                 <ol class="about-section-main-text">
-                    <li>Autonoms dūmu detektors jeb dūmu detektors ir drošs veids, kā pasargāt sevi, savus tuviniekus un
-                        mājokli no ugunsgrēka.
-                    </li>
-                    <li>Ministru kabineta 2016. gada 19. aprīļa noteikumu Nr.238 "Ugunsdrošības noteikumi" 119.punkts
-                        paredz, ka <b>no 2020. gada 1. janvāra visos mājokļos ir jābūt uzstādīti dūmu detektori</b>.
-                    </li>
-                    <li>Par neuzstādītu dūmu detektoru tiek piemērots Administratīvo pārkāpumu kodeksa 179.pants, kas
-                        nosaka: "par ugunsdrošības prasību pārkāpšanu — uzliek naudas sodu fiziskajām personām līdz
-                        divsimt astoņdesmit euro, juridiskajām personām — līdz tūkstoš četrsimt euro".
-                    </li>
+                    <li>Autonoms dūmu detektors jeb dūmu detektors ir drošs veids, kā pasargāt sevi, savus tuviniekus un mājokli no ugunsgrēka.</li>
+                    <li>Ministru kabineta 2016. gada 19. aprīļa noteikumu Nr.238 "Ugunsdrošības noteikumi" 119.punkts paredz, ka <b>no 2020. gada 1. janvāra visos mājokļos ir jābūt uzstādīti dūmu detektori</b>.</li>
+                    <li>Par neuzstādītu dūmu detektoru tiek piemērots Administratīvo pārkāpumu kodeksa 179.pants, kas nosaka: "par ugunsdrošības prasību pārkāpšanu — uzliek naudas sodu fiziskajām personām līdz divsimt astoņdesmit euro, juridiskajām personām — līdz tūkstoš četrsimt euro".</li>
                 </ol>
             </div>
             <div class="col-sm-12 col-md-4">
@@ -142,6 +213,84 @@
             <div class="col-sm-12 text-center">
                 <a class="contact-btn js-scroll-trigger" href="#contact"></a>
                 <div class="contact-btn-label">Sazināties ar mums</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Fire instruction plans -->
+<section id="fireInstructions" class="page-section">
+    <div class="container">
+        <div class="row">
+            <h1 class="page-section-header">Ugunsdrošība</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <h1 class="about-section-heading">Ugunsdrošības instrukcija</h1>
+                <p>Ugunsdrošības noteikumu prasības nosaka, ka objektā ir jābūt izstrādātai un apstiprinātai ugunsdrošībasinstrukcijai. Ugunsdrošības noteikumi arī nosaka prasības ugunsdrošības instrukcijai.</p>
+                <p>SIA "PREVOR" piedāvā izstrādātugunsdrošībasinstrukcijas. Šo dokumentu izstrādei nepieciešamasspecifiskas, konkrētas ugunsdrošībasjautājumu zināšanas, tādēļ aicinām Jūs izvēlēties drošu dokumentu izstrādi pie mums.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="fireInstructionsTraining" class="page-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <h1 class="about-section-heading">Ugunsdrošības instruktāža</h1>
+                <p>Objekta strādājošam personālam ir jābūt apmācītam ugunsdrošības jomā. 
+                    Stājoties darbā, jebkura darbinieka pienākums, ir iziet ugunsdrošības instruktāžu. 
+                    Ugunsdrošības instruktāža sevī ietver, kā rīkoties ugunsgrēka gadījumā, kā veikt cilvēku evakuāciju. 
+                    Kā nepieļaut ugunsgrēka izcelšanās. 
+                    Instruktāžu ir jāiziet jebkuram jaunpieņemtajam darbiniekiem stājoties darbā, kā arī jāieziet to atkārtoti, bet ne retāk kā reizi gadā, vai pēc vadītāja rīkojuma. 
+                    Par ugunsdrošības instruktāžu ir jāparakstās ugunsdrošības instruktāžas žurnālā.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Evacuation plans -->
+<section id="evacPlan" class="page-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <h1 class="about-section-heading">Evakuācijas plānu izstrāde</h1>
+                <p>Piedāvājam veikt ātru un kvalitatīvu evakuācijas plānu izstrādi atbilstoši standarta <b>LVS 446</b> prasībām.
+Evakuācijas plāni ir nepieciešami jebkurai ēkai, kurā var uzturēties vairāk par 50 cilvēkiem (atskaitot
+dzīvojamās ēkas).
+                <p>Evakuācijas plāni tiek izstrādāti sekojoši:
+                <ul class="about-section-main-text">
+                    <li>Jūs veiciet pasūtījumu un vēlams elektroniskā formātā iesūtiet ēkas inventarizācijas lietu vai citu
+dokumentu ar esošo ēkas telpu plānu;</li>
+                    <li>Mūsu darbinieks ierodas Jūsu objektā un atzīmē nepieciešamo informāciju evakuācijas plānam:
+                        <ul>
+                            <li>Ugunsdzēsības līdzekļu atrašanās vietas</li>
+                            <li>Elektroenerģijas atslēgšanas vietu</li>
+                            <li>Pirmās palīdzības līdzekļu atrašanās vietas</li>
+                            <li>Evakuācijai izmantojamos ceļus</li>
+                            <li>Evakuācijas plānu vēlamās atrašanās vietas</li>
+                        </ul>
+                    </li>
+                    <li>Mūsu pārstāvis Jums nogādā gatavos evakuācijas plānus vai nosūta tos elektroniski.</li>
+                </ul>
+            </p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <img src="img/evac-plan.jpg" alt="Evakuācijas plans" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="waterPlan" class="page-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <h1 class="about-section-heading">Ugunsdzēsības ūdensņemšanas vietu izvietojuma shēmu izstrāde</h1>
+                <p>Ugunsdrošības noteikumi nosaka, ka objektos ar savu teritoriju, kuros ir objektam piederīgi <b>ugunsdzēsības hidranti</b> vai <b>ūdens ņemšanas vietas</b>, pie iebrauktuves teritorijā jāizstrādā un jāizvieto ugunsdzēsības ūdensņemšanas vietu izvietojuma shēma (teritorijas plāns), kurā apzīmē iebraukšanas un izbraukšanas virzienus, kā arī ūdens ņemšanas vietu lokāciju. 
+                    Ja arī Jūsu objektā nepieciešams izstrādāt Ugunsdzēsības ūdensņemšanas vietu izvietojuma shēmu (teritorijas plānu), mēs izstrādāsim Ugunsdzēsības ūdensņemšanas vietu izvietojuma shēmu ievērojot visas normatīvos aktos noteiktās prasības.</p>
             </div>
         </div>
     </div>
@@ -204,6 +353,5 @@
 
 <!-- Custom scripts for this template -->
 <script src="js/script.min.js"></script>
-
 </body>
 </html>
