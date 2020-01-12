@@ -200,10 +200,11 @@ body {
 
 /* Section Home */
 .home-section {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #000000 7.94%, rgba(0, 0, 0, 0) 24.63%), url("../img/andrew-gaines-blur-min.jpg");
-    background-position: center;
-    background-size: cover;
+    background-image: url("../img/smoke_detector.jpg");
+    background-position: top center;
+    background-size: 369px;
     background-repeat: no-repeat;
+    color: #000;
 }
 
 .home-section-heading {
@@ -416,10 +417,29 @@ body {
 }
 /* End | Section Contact*/
 
+.page-section-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 16px 16px 16px;
+}
+
+.page-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    min-height: 90vh;
+    padding: 24px 24px 16px;
+    overflow: hidden;
+    color: #000;
+    background: #fff;
+}
+
 /* Media Queries */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
 }
 
 /* Medium devices (tablets, 768px and up) */
